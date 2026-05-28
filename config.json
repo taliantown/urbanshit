@@ -1,0 +1,67 @@
+{
+  "comment": "Configuração das 5 obras. URL: index.html?n=1..5",
+  "obras": {
+    "1": {
+      "titulo": "Multidão",
+      "svg": "svgs/obra1.svg",
+      "audio": "audio/obra1.wav",
+      "banda_hz": [200, 800],
+      "efeitos": {
+        "vibracao": 1.0,
+        "stroke_pulso": 0.7,
+        "glow": 0.4,
+        "cor_migra": 0.0
+      }
+    },
+    "2": {
+      "titulo": "Elétrico",
+      "svg": "svgs/obra2.svg",
+      "audio": "audio/obra2.wav",
+      "banda_hz": [60, 250],
+      "efeitos": {
+        "vibracao": 0.3,
+        "stroke_pulso": 1.0,
+        "glow": 1.0,
+        "cor_migra": 0.0
+      }
+    },
+    "3": {
+      "titulo": "Conversas",
+      "svg": "svgs/obra3.svg",
+      "audio": "audio/obra3.wav",
+      "banda_hz": [500, 2000],
+      "efeitos": {
+        "vibracao": 0.6,
+        "stroke_pulso": 0.5,
+        "glow": 0.3,
+        "cor_migra": 0.6
+      }
+    },
+    "4": {
+      "titulo": "Tráfego",
+      "svg": "svgs/obra4.svg",
+      "audio": "audio/obra4.wav",
+      "banda_hz": [200, 5000],
+      "efeitos": {
+        "vibracao": 0.8,
+        "stroke_pulso": 1.0,
+        "glow": 0.6,
+        "cor_migra": 0.0,
+        "onset_glitch": 1.0
+      }
+    },
+    "5": {
+      "titulo": "Ritmo",
+      "svg": "svgs/obra5.svg",
+      "audio": "audio/obra5.wav",
+      "banda_hz": [60, 150],
+      "efeitos": {
+        "vibracao": 0.0,
+        "stroke_pulso": 1.0,
+        "glow": 0.5,
+        "cor_migra": 0.0,
+        "onset_glitch": 0.4
+      }
+    }
+  }
+}

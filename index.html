@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#000000">
+  <title>Paisagens urbanas</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div id="stage">
+    <div id="svg-wrap" aria-hidden="true"></div>
+  </div>
+
+  <button id="play-btn" type="button">
+    <span class="play-label">▶ tocar</span>
+    <span class="play-sub" id="play-sub">obra —</span>
+  </button>
+
+  <audio id="audio" preload="auto" loop></audio>
+
+  <script src="app.js"></script>
+</body>
+</html>
